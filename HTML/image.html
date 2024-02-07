@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: blanchedalmond;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <img src="https://images1.pexels.com/photos/1366919/pexels-photo-1366919.jpeg?auto=compress&cs=tinysrgb&w=600" 
+    width="200px" height="200px">
+    <img src="captio1n.jpg"  width="200px" height="200px">
+    <picture>
+        <source media="(min-width: 200px )" srcset="captio1n.jpg">
+        <img src="caption.jpg">
+    </picture>
+
+    <!--Generating map-->
+    <img src="caption.jpg" usemap="#image-map">
+
+    <map name="image-map">
+        <area onclick="one()" alt="" title="" href="" coords="329,15,389,89" shape="rect">
+        <area onclick="two()" alt="" title="" href="" coords="400,235,325,187" shape="0">
+        <area onclick="three()" target="" alt="" title="" href="" coords="103,57,145,90" shape="0">
+    </map>
+    
+   
+
+    <script>
+        function one(){
+            alert("You clicked on flag")
+        }
+        function two(){
+            alert("You clicket on the top")
+        }
+        function three(){
+            alert("You clicked on sky")
+        }
+    </script>
+    
+</body>
+</html>

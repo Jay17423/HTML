@@ -1,0 +1,9 @@
+<pre></pre> whatever we want to write with our style we can write 
+<hr></hr> This tag is used to draw a horizonatal line
+<a href ="mailto: jayprakash@hmailcom"> It is used to link to the email
+<a href="" download="my_painting.png">Download my painting</a> Used to downliad the image wihch is set by the user.
+<a href="tel:+49.157.0156">+49 157 0156</a> Used to link phone numbder
+<p>This is <mark>Important</mark></p>  Used to higilight the text
+<p>This is <del>Important</del></p> Used to cross the text
+
+
