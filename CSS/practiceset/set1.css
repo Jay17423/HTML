@@ -1,0 +1,15 @@
+
+h1{
+    text-align: center;
+    text-transform: uppercase;
+    background-color: rgb(0, 0, 255,0.2);
+}
+p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#outer{
+    font-size: 25px;
+}
+#inner{
+    font-size: 15px;
+}

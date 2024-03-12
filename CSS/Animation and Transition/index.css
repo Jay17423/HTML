@@ -1,0 +1,27 @@
+#button{
+    height: 30px;
+    width: 70px;
+    border: 2px solid coral;
+    background-color: aquamarine;
+    border-radius: 10px;
+    margin-left: 4cm;
+    margin-top: 0.5cm;
+    /* transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0s; */
+    transition: all 1s ease-in-out 0s;
+}
+#button:hover{
+    height: 30px;
+    width: 80px;
+    border: 2px solid cornflowerblue;
+    background-color: brown;
+}
+#button:active{
+    height: 30px;
+    width: 80px;
+    border: 2px solid rgb(173, 31, 230);
+    background-color: rgb(181, 231, 17);
+
+}
